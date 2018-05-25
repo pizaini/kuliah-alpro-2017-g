@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="belajaralpro2017g.array1.Array1Controller">
+   <children>
+      <ComboBox fx:id="comboNama" layoutX="150.0" layoutY="101.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
