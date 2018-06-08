@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package belajaralpro2017g.array1;
+package belajaralpro2017g.array3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,13 +15,12 @@ import javafx.stage.Stage;
  *
  * @author Pizaini
  */
-public class RunArray1 extends Application {
+public class RunComboBox extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Array1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ComboBoxArray.fxml"));
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }
